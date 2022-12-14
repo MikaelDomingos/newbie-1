@@ -1,0 +1,21 @@
+@media screen and (max-width: 760px) {
+  .hidden-mobile {
+    display: none;
+  }
+  .content {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .div2 {
+    min-width: initial;
+    border-radius: 0 0 10px 10px;
+  }
+  .div1 {
+    line-height: 0;
+  }
+}
+@media screen and (min-width: 761px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
